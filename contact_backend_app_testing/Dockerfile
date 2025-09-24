@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-jdk-slim
 
 COPY target/contact-backend-app.jar  /usr/app/
 
